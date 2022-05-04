@@ -9,7 +9,7 @@ With the rapidly increasing rate of the demand for e-learning, the number of onl
 Business rules plays an integral role to the layout of the database and will show how tables are interact with each other. There are the main business rules for our project:
 
 - **The USER ACCOUNT can be either an ADMIN, STUDENT, or INSTRUCTOR, but can not be more than one at the same time.**
-A supertype/subtype relationship is included with a disjoint rule.
+A supertype/subtype relationship is included with a disjoint rule. 
 - **A new user must fill in key information upon registering especially the account type.**
 A student account user will be taking courses and quizzes, a instructor account user will be posing and hosting courses, while admin deals with potential issue from the two type of user may encounter.
 - **INSTRUCTOR Teaches COURSE, and COURSE is taught by INSTRUCTOR.**
